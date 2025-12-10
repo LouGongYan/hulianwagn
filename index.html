@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>趣田纪</title>
+    <style>
+        .home-photos {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;margin-top: 30px;
+            margin-left: 170px;
+}
+.home-photos img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+        .photo-title {
+    margin-top: 10px;
+            font-size: 16px;
+            color: #2c3e50;
+}
+        .photo-item img { width: 100%; height: 200px; object-fit: cover; }
+        .section-title {
+  background: linear-gradient(135deg, #ffb74d, #ffa726); /* 渐变色更生动 */
+  color: #fff; /* 白色文字更醒目 */
+  padding: 20px 30px;
+  border-radius: 6px;margin-top: 85px;
+  margin-left: 180px;
+  display: inline-block;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3); /* 轻微阴影，增加立体感 */
+  border: 1px solid #ff9800; /* 深色边框强化轮廓 */
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1); /* 文字阴影提升可读性 */
+            transition: all 0.3s ease; /* 过渡动画更丝滑 */
+  cursor: default; /* 鼠标悬浮时不变手型（非可点击元素） */
+}
+        .section-title:hover {
+  transform: translateY(-2px); /* 轻微上移 */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* 阴影加深 */
+  background: linear-gradient(135deg, #ffa726, #ff9800); /* 渐变反向 */
+}
+     .input-style {
+  border: 2px solid #999;
+  border-radius: 12px;
+  padding: 10px 18px;
+  font-size: 16px;
+  width: 200px;
+}
+     .input-style:focus {
+  border-color: #333;
+  outline: none;
+}
+        .input-container {
+  /* 让输入框距离顶端50px、左侧20px */
+  margin-top: 290px;
+  margin-left: 620px;
+}
+        .image-item {
+            width: 150px;
+            text-align: center;
+        }
+        .image-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .image-item img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <img src="static/maintupian/biaoti.png"
+         style="width: 300px; position: absolute; top: 2px; left: 600px;"
+         alt="相对定位">
+    <div class="input-container">
+  <input type="text" class="input-style" placeholder="请输入内容">
+</div>
+</div>
+    <div class="section">
+  <div class="section-title">农家乐</div>
+    <div class="home-photos">
+    
+        <div class="image-item">
+        <!-- 图片链接（跳转到详情页） -->
+        <a href="detail_hongyun.html">
+            <img src="static/images/hongyun.jpg" alt="广西桂林舞燕虹云">
+        </a>
+        <p class="photo-title">广西桂林舞燕虹云</p>
+            </div>
+    
+        <div class="image-item">
+        <!-- 图片链接（跳转到详情页） -->
+        <a href="detail_mulouminge.html">
+            <img src="static/images/mulouminge.jpg" alt="广西桂林木楼阁民宿">
+        </a>
+        <p class="photo-title">广西桂林木楼阁民宿</p>
+            </div>
+    
+        <div class="image-item">
+        <!-- 图片链接（跳转到详情页） -->
+        <a href="detail_weizhoudao.html">
+            <img src="static/images/weizhoudao.jpg" alt="广西涠洲岛顾里海边客栈">
+        </a>
+        <p class="photo-title">广西涠洲岛顾里海边客栈</p>
+            </div>
+    
+      </div>
+        <div class="section">
+  <div class="section-title">创意游戏农场</div>
+            <div class="home-photos">
+    
+        <div class="image-item">
+        <!-- 图片链接（跳转到详情页） -->
+        <a href="detail_touganzhe.html">
+            <img src="static/images_1/touganzhe.jpg" alt="偷甘蔗活动">
+        </a>
+        <p class="photo-title">偷甘蔗活动</p>
+            </div>
+    
+        <div class="image-item">
+        <!-- 图片链接（跳转到详情页） -->
+        <a href="detail_xunbao.html">
+            <img src="static/images_1/xunbao.jpg" alt="田园探险">
+        </a>
+        <p class="photo-title">田园探险</p>
+            </div>
+    
+      </div>
+    </div>
+        <div class="section">
+  <div class="section-title">采摘体验项目</div>
+            <div class="home-photos">
+    
+        <div class="image-item">
+        <!-- 图片链接（跳转到详情页） -->
+        <a href="detail_ganzhe.html">
+            <img src="static/images_2/ganzhe.jpg" alt="甘蔗采摘">
+        </a>
+        <p class="photo-title">甘蔗采摘</p>
+            </div>
+    
+        <div class="image-item">
+        <!-- 图片链接（跳转到详情页） -->
+        <a href="detail_yumi.html">
+            <img src="static/images_2/yumi.jpg" alt="玉米采摘">
+        </a>
+        <p class="photo-title">玉米采摘</p>
+            </div>
+    
+      </div>
+    </div>
+    </div>>
+</body>
+</html>

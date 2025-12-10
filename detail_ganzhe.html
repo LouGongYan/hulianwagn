@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>甘蔗采摘</title>
+    <style>
+        .content-wrap {
+    white-space: pre-wrap;
+  }
+         .related-photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 20px; }
+        .related-photos img { width: 100%; height: 200px; object-fit: cover; border-radius: 4px; }
+        .related-photos_1 { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 15px; margin-top: 20px; }
+        .related-photos_1 img { width: 100%; height: 400px; object-fit: cover; border-radius: 4px; }
+        .detail-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .back-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .back-btn:hover {
+            background-color: #2980b9;
+        }
+        .detail-text {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <div class="detail-container">
+        <!-- 返回主页按钮 -->
+        <a href="index.html" class="back-btn">返回主页</a>
+        <!-- 图片对应文本内容 -->
+        <div class="content-wrap">
+        <h2>甘蔗采摘</h2>
+        <p class="detail-text">导航直接搜“七哥甘蔗采摘园”就行啦。这里可以免费停车，车子可以直接停在路边。园子里的鸭舍附近有很多鸭蛋，都是一窝一窝的，只要两块钱一个。最近砍甘蔗的价格很优惠，红甘蔗和黄甘蔗都是5元一根。想偷懒的话，也可以让老板帮忙削，就是20元三根。孩子们在这里可以体验捡鸭蛋、自己动手砍甘蔗、切甘蔗块儿，还能榨着喝，体验感真的很好。</p>
+            </div>
+        <h3>相关照片</h3>
+        <div class="related-photos">
+            
+                <img src="../static/detail_photos/ganzhe/C65272053C2B496BA24870A3527A6D5E.jpg" alt="C65272053C2B496BA24870A3527A6D5E.jpg">
+            
+                <img src="../static/detail_photos/ganzhe/fa71450e0e91827cb7909aa2825198f4.jpg" alt="fa71450e0e91827cb7909aa2825198f4.jpg">
+            
+        </div>
+        <h3>放大展区</h3>
+        <div class="related-photos_1">
+            
+                <img src="../static/detail_photos/ganzhe/C65272053C2B496BA24870A3527A6D5E.jpg" alt="C65272053C2B496BA24870A3527A6D5E.jpg">
+            
+                <img src="../static/detail_photos/ganzhe/fa71450e0e91827cb7909aa2825198f4.jpg" alt="fa71450e0e91827cb7909aa2825198f4.jpg">
+            
+        </div>
+        <h3>地址与联系方式</h3>
+<!-- 比如你前端是这样渲染context的 -->
+<div class="content-wrap">
+    <p class="detail-text" >七哥甘蔗采摘园</p> <!-- 比如这里是"地址:龙脊镇龙脊村\n联系电话: 17336269233\n房型: 标间3" -->
+</div>
+    </div>
+</body>
+</html>
